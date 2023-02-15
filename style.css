@@ -1,0 +1,81 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, orange 30%, cyan);
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container:first-child {
+  text-align: center;
+}
+.auth-form {
+  display: inline-block;
+  margin: auto;
+  padding: 2rem;
+  background-color: rgb(207, 207, 53);
+  border-radius: 20px;
+  text-align: right;
+  border: 2px;
+  border-color: blue;
+  box-shadow: inset;
+}
+.field input {
+  border: 0;
+  border-radius: 10px;
+  padding: 6px;
+}
+.field {
+  margin: 10px;
+}
+.btn {
+  padding: 10px;
+  color: beige;
+  background-color: rgb(160, 84, 230);
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: rgb(121, 15, 221);
+  transition: 0.3s;
+}
+.field:last-child {
+  text-align: center;
+}
+/* modal */
+
+.main-modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(187, 244, 178);
+  display: none;
+  margin: 5px;
+}
+
+.inner-modal {
+  width: 500px;
+  height: 300px;
+  background-color: #e994f0;
+  margin: auto;
+  text-align: center;
+}
+
+.close {
+  text-align: end;
+}

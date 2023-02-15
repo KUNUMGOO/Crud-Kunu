@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>LocalStorage</title>
+    <!-- Создать 4 инпута(name, email, imageUrl, phone) -->
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="auth-form">
+          <div class="field">
+            <span>Name: </span>
+            <input type="text" class="input-name" />
+          </div>
+          <div class="field">
+            <span>email:</span>
+            <input type="text" class="input-email" />
+          </div>
+          <div class="field">
+            <span>imageUrl:</span>
+            <input type="text" class="input-img" />
+          </div>
+          <div class="field">
+            <span>phone:</span>
+            <input type="text" class="input-phone" />
+          </div>
+          <div class="field">
+            <button class="btn">Submit</button>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <ul class="task-list"></ul>
+      </div>
+    </div>
+
+    <div class="main-modal">
+      <div class="inner-modal">
+        <div class="close">
+          <button class="btn-closer">X</button>
+        </div>
+        <input type="text" class="inp-name" />
+        <input type="text" class="inp-email" />
+        <input type="text" class="inp-img" />
+        <input type="text" class="inp-phone" />
+        <button class="btn-save">save changes</button>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
